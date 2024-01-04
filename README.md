@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Joel Chavez</h1>
+<h1 align="center">Hi 🐱, I'm Joel Chavez</h1>
 <h3 align="center">Computer Science student captivated by algorithms and AI. 🖥️🚀</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jhozzel&label=Profile%20views&color=0e75b6&style=flat" alt="jhozzel" /> </p>
