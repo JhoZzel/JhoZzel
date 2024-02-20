@@ -14,7 +14,7 @@
 </p>
 
 
-![](https://raw.githubusercontent.com/JhoZzel_/cf-stats/main/output/light_card.svg)
+![](https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg)
 
 
 <h3 align="left">Languages and Tools:</h3>
