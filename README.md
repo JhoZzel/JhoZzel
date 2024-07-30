@@ -33,6 +33,14 @@
 
 
 <!-- ![Leetcode Stats](https://leetcard.jacoblin.cool/JhoZzel) -->
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn)
-![Codeforces Stats](https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg)
+<h3 align="left">Coding Profiles:</h3>
+<table>
+  <tr>
+    <td>
+      <img src="https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn" alt="LeetCode Stats"/>
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg" alt="Codeforces Stats"/>
+    </td>
+  </tr>
+</table>
