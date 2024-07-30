@@ -32,7 +32,6 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jhozzel&" alt="jhozzel" /></p>
 
 
-[![LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=JhoZzel&theme=dark)](https://github.com/KnlnKS/leetcode-stats)
-
+![Leetcode Stats](https://leetcard.jacoblin.cool/JhoZzel)
 
 ![](https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg)
