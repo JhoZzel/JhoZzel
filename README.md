@@ -32,7 +32,8 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jhozzel&" alt="jhozzel" /></p>
 
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/JhoZzel)
+<!-- ![Leetcode Stats](https://leetcard.jacoblin.cool/JhoZzel) -->
 
 ![](https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn)
-![](https://leetcard.jacoblin.cool/JhoZzel?theme=light,unicorn)
+
+![](https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg)
