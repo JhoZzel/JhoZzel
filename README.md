@@ -33,7 +33,9 @@
     <td style="border: none; padding: 0;">
       <img src="https://github-readme-stats.vercel.app/api?username=jhozzel&show_icons=true&locale=en" alt="jhozzel" />
     </td>
-    <td style="border: none; padding: 0;">
+  </tr>
+  <tr>
+    <td colspan="2" style="border: none; padding: 0;">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=jhozzel&" alt="jhozzel" />
     </td>
   </tr>
