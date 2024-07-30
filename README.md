@@ -37,12 +37,10 @@
 <table>
   <tr>
     <td>
-            <img src="https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg" alt="Codeforces Stats"/>
-
+      <img src="https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg" alt="Codeforces Stats"/>
     </td>
     <td>
-            <img src="https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn" alt="LeetCode Stats"/>
-
+      <img src="https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn" alt="LeetCode Stats"/>
     </td>
   </tr>
 </table>
