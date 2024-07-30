@@ -34,12 +34,12 @@
 
 <!-- ![Leetcode Stats](https://leetcard.jacoblin.cool/JhoZzel) -->
 <h3 align="left">Coding Profiles:</h3>
-<table>
+<table style="border-collapse: collapse; border: none;">
   <tr>
-    <td>
+    <td style="border: none; padding: 0;">
       <img src="https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg" alt="Codeforces Stats"/>
     </td>
-    <td>
+    <td style="border: none; padding: 0;">
       <img src="https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn" alt="LeetCode Stats"/>
     </td>
   </tr>
