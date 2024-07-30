@@ -34,4 +34,5 @@
 
 ![Leetcode Stats](https://leetcard.jacoblin.cool/JhoZzel)
 
-![](https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg)
+![](https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn)
+![](https://leetcard.jacoblin.cool/JhoZzel?theme=light,unicorn)
