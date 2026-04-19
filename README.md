@@ -27,7 +27,7 @@ You can find my aggregated profiles, ratings, and teams here:
 
 <p align="center">
   <a href="https://clist.by/coder/JhoZzel/">
-    <img src="https://raw.githubusercontent.com/JhoZzel/JhoZzel/main/assets/clist-card.svg?v=2" alt="CLIST Card" />
+    <img src="https://raw.githubusercontent.com/JhoZzel/JhoZzel/main/assets/rating.png" alt="CLIST Rating" />
   </a>
 </p>
 
