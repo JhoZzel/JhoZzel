@@ -26,6 +26,12 @@ I actively participate in online judges and contests across different platforms.
 You can find my aggregated profiles, ratings, and teams here:
 
 <p align="center">
+  <a href="https://clist.by/coder/JhoZzel/">
+    <img src="./assets/clist-card.svg" alt="CLIST Card" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg" alt="Codeforces Stats"/>
 </p>
 
