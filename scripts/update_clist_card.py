@@ -16,6 +16,10 @@ r.raise_for_status()
 data = r.json()
 objects = data.get("objects", [])
 
+print(f"Total objects: {len(objects)}")
+for obj in objects:
+    print(f"  resource={obj.get('resource')} handle={obj.get('handle')} rating={obj.get('rating')}")
+
 targets = {
     "codeforces.com": "Codeforces",
     "atcoder.jp": "AtCoder",
