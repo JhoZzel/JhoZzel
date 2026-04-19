@@ -15,20 +15,87 @@ r = requests.get(url, params=params)
 r.raise_for_status()
 data = r.json()
 
-text = str(data)[:1000].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+objects = data.get("objects", [])
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260">
-  <rect width="100%" height="100%" rx="18" fill="#0d1117"/>
-  <text x="30" y="50" font-size="30" fill="#ffffff" font-family="Arial">Joel Chavez (JhoZzel)</text>
-  <text x="30" y="90" font-size="18" fill="#c9d1d9" font-family="Arial">CLIST dynamic card</text>
-  <text x="30" y="130" font-size="14" fill="#7ee787" font-family="monospace">API response preview:</text>
-  <foreignObject x="30" y="145" width="940" height="90">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="color:#c9d1d9;font-family:monospace;font-size:12px;white-space:pre-wrap;">
-      {text}
-    </div>
-  </foreignObject>
-  <text x="30" y="245" font-size="14" fill="#58a6ff" font-family="Arial">https://clist.by/coder/JhoZzel/</text>
-</svg>"""
+targets = {
+    "codeforces.com": "Codeforces",
+    "atcoder.jp": "AtCoder",
+    "leetcode.com": "LeetCode",
+    "codechef.com": "CodeChef",
+    "hackerrank.com": "HackerRank",
+}
+
+best = {}
+
+for obj in objects:
+    resource = obj.get("resource")
+    if resource not in targets:
+        continue
+
+    rating = obj.get("rating")
+    contests = obj.get("n_contests")
+    handle = obj.get("handle", "-")
+
+    if resource not in best:
+        best[resource] = {
+            "label": targets[resource],
+            "handle": handle,
+            "rating": rating,
+            "contests": contests,
+        }
+        continue
+
+    old_rating = best[resource]["rating"]
+    if rating is not None and (old_rating is None or rating > old_rating):
+        best[resource] = {
+            "label": targets[resource],
+            "handle": handle,
+            "rating": rating,
+            "contests": contests,
+        }
+
+rows = []
+for resource in ["codeforces.com", "atcoder.jp", "leetcode.com", "codechef.com", "hackerrank.com"]:
+    if resource not in best:
+        continue
+
+    item = best[resource]
+    rating = item["rating"] if item["rating"] is not None else "-"
+    contests = item["contests"] if item["contests"] is not None else "-"
+    rows.append((item["label"], item["handle"], rating, contests))
+
+height = 170 + 34 * len(rows)
+
+lines_svg = []
+y = 95
+for label, handle, rating, contests in rows:
+    lines_svg.append(
+        f'<text x="40" y="{y}" font-size="18" fill="#c9d1d9" font-family="Arial">'
+        f'{label}: {handle} | rating: {rating} | contests: {contests}'
+        f'</text>'
+    )
+    y += 34
+
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="950" height="{height}" viewBox="0 0 950 {height}">
+  <rect x="0" y="0" width="950" height="{height}" rx="22" fill="#0d1117"/>
+  <rect x="20" y="20" width="910" height="{height - 40}" rx="18" fill="#161b22" stroke="#30363d"/>
+
+  <text x="40" y="58" font-size="34" fill="#ffffff" font-family="Arial" font-weight="bold">
+    Joel Chavez (JhoZzel)
+  </text>
+
+  <text x="40" y="88" font-size="18" fill="#8b949e" font-family="Arial">
+    Competitive Programming Profiles
+  </text>
+
+  {''.join(lines_svg)}
+
+  <line x1="40" y1="{height - 52}" x2="910" y2="{height - 52}" stroke="#30363d"/>
+
+  <text x="40" y="{height - 24}" font-size="16" fill="#58a6ff" font-family="Arial">
+    clist.by/coder/JhoZzel/
+  </text>
+</svg>'''
 
 os.makedirs("assets", exist_ok=True)
 with open("assets/clist-card.svg", "w", encoding="utf-8") as f:
