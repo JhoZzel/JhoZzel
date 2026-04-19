@@ -4,6 +4,22 @@ import requests
 username = os.environ["CLIST_USERNAME"]
 api_key = os.environ["CLIST_API_KEY"]
 
+# DEBUG: buscar todos los handles de leetcode asociados a tu cuenta
+debug_url = "https://clist.by/api/v2/account/"
+debug_params = {
+    "username": username,
+    "api_key": api_key,
+    "format": "json",
+    "resource": "leetcode.com",
+    "limit": 50,
+}
+r2 = requests.get(debug_url, params=debug_params)
+data2 = r2.json()
+print("=== ALL LEETCODE ACCOUNTS ===")
+for obj in data2.get("objects", []):
+    print(f"  handle={obj.get('handle')} rating={obj.get('rating')} contests={obj.get('n_contests')}")
+print("=== END ===")
+
 MY_ACCOUNTS = [
     ("codeforces.com",    "Joel_Uwu",  "Codeforces",    "#f78166"),
     ("atcoder.jp",        "JhoZzel",   "AtCoder",        "#f0883e"),
