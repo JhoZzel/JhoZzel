@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260">
+  <rect width="100%" height="100%" rx="18" fill="#0d1117"/>
+  <text x="30" y="50" font-size="30" fill="#ffffff" font-family="Arial">Joel Chavez (JhoZzel)</text>
+  <text x="30" y="90" font-size="18" fill="#c9d1d9" font-family="Arial">CLIST dynamic card</text>
+  <text x="30" y="130" font-size="14" fill="#7ee787" font-family="monospace">API response preview:</text>
+  <foreignObject x="30" y="145" width="940" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color:#c9d1d9;font-family:monospace;font-size:12px;white-space:pre-wrap;">
+      {'meta': {'estimated_count': None, 'limit': 100, 'next': '/api/v3/account/?username=JhoZzel&amp;api_key=1612cce91a1e8198526e6aa1314508c819d275d7&amp;format=json&amp;limit=100&amp;offset=100', 'offset': 0, 'previous': None, 'total_count': None}, 'objects': [{'handle': 'Vynxvoid', 'id': 9870106, 'n_contests': 9, 'name': None, 'overall_rank': 487739, 'rating': 981, 'resource': 'codeforces.com', 'resource_id': 1}, {'handle': 'V.Sindhuja', 'id': 9872252, 'n_contests': 5, 'name': None, 'overall_rank': 487739, 'rating': 981, 'resource': 'codeforces.com', 'resource_id': 1}, {'handle': 'devangshrivastava7979', 'id': 9872767, 'n_contests': 6, 'name': None, 'overall_rank': 487739, 'rating': 981, 'resource': 'codeforces.com', 'resource_id': 1}, {'handle': 'kmanasareddy769', 'id': 6065766, 'n_contests': 7, 'name': None, 'overall_rank': 701703, 'rating': 669, 'resource': 'codeforces.com', 'resource_id': 1}, {'handle': 'tatsu3939', 'id': 276783, 'n_contests': 14, 'name': 'tatsu3939', 'overall_rank': 58872, 'rating':
+    </div>
+  </foreignObject>
+  <text x="30" y="245" font-size="14" fill="#58a6ff" font-family="Arial">https://clist.by/coder/JhoZzel/</text>
+</svg>
