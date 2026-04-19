@@ -7,7 +7,7 @@ api_key = os.environ["CLIST_API_KEY"]
 MY_ACCOUNTS = [
     ("codeforces.com",    "Joel_Uwu",  "Codeforces",    "#f78166"),
     ("atcoder.jp",        "JhoZzel",   "AtCoder",        "#f0883e"),
-    ("leetcode.com",      "Joel Jhotan Chavez Chico",   "LeetCode",       "#58a6ff"),
+    ("leetcode.com",      "JhoZzel",   "LeetCode",       "#58a6ff"),
     ("dmoj.ca",           "JoelCH04",  "DMOJ",           "#a371f7"),
     ("codechef.com",      "jhozzel",   "CodeChef",       "#3fb950"),
     ("geeksforgeeks.org", "jhozzel",   "GeeksForGeeks",  "#39d353"),
