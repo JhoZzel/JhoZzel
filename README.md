@@ -36,6 +36,22 @@ I'm from Peru and I'm passionate about algorithms, problem-solving, and continuo
   </a>
 </p>
 
+
+
+
+<p align="center">
+  <a href="https://codeforces.com/profile/Joel_Uwu">
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Joel_Uwu&theme=tokyonight" alt="Codeforces Stats"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://codeforces-readme-stats.vercel.app/api/badge?username=Joel_Uwu&theme=tokyonight" alt="Codeforces Rating Badge"/>
+</p>
+
+
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg" alt="Codeforces Stats"/>
 </p>
