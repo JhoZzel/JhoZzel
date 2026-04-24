@@ -38,6 +38,21 @@ I'm from Peru and I'm passionate about algorithms, problem-solving, and continuo
   <img src="https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn" alt="LeetCode Stats"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/ICPC%20World%20Finals-2025%20Finalist-gold?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ICPC%20Challenge-Top%2012%20Worldwide-blueviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/>
+</p>
+
+
+<p align="center">
+  <img src="https://atrating.baoshuo.dev/rating?username=JhoZzel" alt="AtCoder Rating"/>
+</p>
+
+<p align="center">
+  <img src="https://atcoder-readme-stats.vercel.app/stats/JhoZzel?theme=darcula&show_icons=true&show_history=5&width=500" alt="AtCoder Stats"/>
+</p>
+
 ---
 
 ## 🛠️ Tech Stack
