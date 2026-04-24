@@ -51,11 +51,6 @@ I'm from Peru and I'm passionate about algorithms, problem-solving, and continuo
 
 
 
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/JhoZzel/cf-stats/main/output/light_card.svg" alt="Codeforces Stats"/>
-</p>
-
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn" alt="LeetCode Stats"/>
 </p>
