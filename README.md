@@ -25,6 +25,12 @@ I'm from Peru and I'm passionate about algorithms, problem-solving, and continuo
 ## 🏆 Competitive Programming
 
 <p align="center">
+  <img src="https://img.shields.io/badge/ICPC%20World%20Finals-2025%20Finalist-gold?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ICPC%20Challenge-Top%2012%20Worldwide-blueviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/>
+</p>
+
+<p align="center">
   <a href="https://clist.by/coder/JhoZzel/">
     <img src="https://raw.githubusercontent.com/JhoZzel/JhoZzel/main/assets/rating.png" alt="CLIST Rating" width="500"/>
   </a>
@@ -38,11 +44,6 @@ I'm from Peru and I'm passionate about algorithms, problem-solving, and continuo
   <img src="https://leetcard.jacoblin.cool/JhoZzel?theme=unicorn" alt="LeetCode Stats"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ICPC%20World%20Finals-2025%20Finalist-gold?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ICPC%20Challenge-Top%2012%20Worldwide-blueviolet?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/>
-</p>
 
 
 <p align="center">
